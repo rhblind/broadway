@@ -18,11 +18,11 @@ jobs:
         include:
           # Earliest-supported versions.
           - elixir: "1.7.4"
-            otp: "21.3.8.17"
+            otp: "24.3.4.17"
 
           # Latest versions.
           - elixir: "1.18"
-            otp: "27.2"
+            otp: "27.3"
             lint: lint
             coverage: coverage
     steps:
